@@ -1,0 +1,17 @@
+.theQustion{
+    background-color: red;
+    color: white;
+    width: 300px;
+    padding: 8px;
+}
+.answers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.answers p{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+}
